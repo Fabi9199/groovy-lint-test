@@ -1,0 +1,58 @@
+{
+    "extends": "recommended",
+    "ignorePattern": "vendor",
+    "rules": {
+        "CatchException": {
+            "enabled": false
+        },
+        "NglParseError": {
+            "enabled": false
+        },
+        "basic.DeadCode": "error",
+        "convention.CompileStatic": "off",
+        "convention.FieldTypeRequired": "off",
+        "convention.IfStatementCouldBeTernary": "info",
+        "convention.MethodParameterTypeRequired": "off",
+        "naming.VariableName": "off",
+        "groovyism.ExplicitCallToEqualsMethod": "off",
+        "convention.MethodReturnTypeRequired": "off",
+        "convention.NoDef": "off",
+        "convention.TrailingComma": "off",
+        "convention.VariableTypeRequired": "off",
+        "design.BuilderMethodWithSideEffects": "off",
+        "dry.DuplicateListLiteral": "info",
+        "dry.DuplicateMapLiteral": "warning",
+        "dry.DuplicateNumberLiteral": "off",
+        "dry.DuplicateStringLiteral": "off",
+        "exceptions.ThrowException": "info",
+        "exceptions.ThrowNullPointerException": "info",
+        "exceptions.ThrowRuntimeException": "info",
+        "exceptions.ThrowThrowable": "info",
+        "formatting.BracesForClass": "info",
+        "formatting.BracesForForLoop": "info",
+        "formatting.BracesForIfElse": "info",
+        "formatting.BracesForMethod": "info",
+        "formatting.BracesForTryCatchFinally": "info",
+        "formatting.Indentation": {
+            "spacesPerIndentLevel": 4,
+            "severity": "info"
+        },
+        "formatting.LineLength": "off",
+        "formatting.SpaceAroundMapEntryColon": "off",
+        "logging.Println": "off",
+        "naming.FactoryMethodName": "off",
+        "size.MethodSize": "off",
+        "size.NestedBlockDepth": "off",
+        "size.ParameterCount": "off",
+        "unnecessary.UnnecessaryGetter": "off",
+        "unnecessary.UnnecessaryReturnKeyword": "off",
+        "unused.UnusedArray": "error",
+        "unused.UnusedObject": "error",
+        "unused.UnusedPrivateField": "error",
+        "unused.UnusedPrivateMethod": "error",
+        "unused.UnusedPrivateMethodParameter": "error",
+        "unused.UnusedVariable": {
+            "ignoreVariableNames": "_"
+        }
+    }
+}
